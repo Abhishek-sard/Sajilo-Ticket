@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Tickets - Sajilo Ticket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Search Tickets</h2>
+        <form action="search.php" method="GET">
+            <input type="date" name="booking_date" required>
+            <select name="vehicle_type">
+                <option value="bus">Bus</option>
+                <option value="van">Van</option>
+                <!-- Add more vehicle types -->
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
